@@ -1,0 +1,58 @@
+{
+  "bookCategories": [
+    {
+      "id": "1",
+      "name": "Japanese"
+    },
+    {
+      "id": "2",
+      "name": "Korean"
+    },
+    {
+      "id": "3",
+      "name": "Mandarin"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "category_id": "1",
+      "name": "Minna No Nihongo 1"
+    },
+    {
+      "id": "2",
+      "category_id": "1",
+      "name": "Minna No Nihongo 2"
+    },
+    {
+      "id": "3",
+      "category_id": "1",
+      "name": "JLPT N5"
+    },
+    {
+      "id": "4",
+      "category_id": "1",
+      "name": "JLPT N4"
+    },
+    {
+      "id": "5",
+      "category_id": "2",
+      "name": "TOPIK 1"
+    },
+    {
+      "id": "6",
+      "category_id": "2",
+      "name": "TOPIK 2"
+    },
+    {
+      "id": "7",
+      "category_id": "3",
+      "name": "HSK 1"
+    },
+    {
+      "id": "8",
+      "category_id": "3",
+      "name": "HSK 2"
+    }
+  ]
+}
