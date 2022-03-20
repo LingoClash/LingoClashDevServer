@@ -29,3 +29,6 @@ http://localhost:3000/users?age_gte=30&age_lte=40
 
 FULL TEXT SEARCH
 http://localhost:3000/users?q=Paul
+
+STATIC FILE
+http://localhost:3000/assets/images/jlpt_n1.jpg
