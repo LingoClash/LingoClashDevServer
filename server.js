@@ -102,6 +102,16 @@ server.post('/auth/login', (req, res) => {
   res.status(200).json({ access_token });
 });
 
+server.get('/user/me', (req, res) => {
+  let sample_user = {
+    id: 1,
+    fullName: 'Bruno Mars',
+    avatar:
+      'https://secure.gravatar.com/avatar/854a899faca5065ac620006778d81271',
+  };
+  res.status(200).json(sample_user);
+});
+
 server.use(/^(?!\/auth).*$/, (req, res, next) => {
   if (
     req.headers.authorization === undefined ||
